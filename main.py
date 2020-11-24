@@ -152,7 +152,6 @@ if add_search:
     # 'How would you like to be contacted?',
     # ('Twitter', 'Mail', 'Mobile phone')
 # )
-
 # Add a slider to the sidebar:
 # add_slider = st.sidebar.slider(
     # 'Select a range of values',
