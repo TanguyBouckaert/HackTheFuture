@@ -14,7 +14,7 @@ st.title("My cool app")
 text = st.text_area("Text to analyze", DEFAULT_TEXT, height=200)
 doc = spacy_streamlit.process_text(spacy_model, text)
 
-spacy_streamlit.visualize_ner(
+spacy_streamlit.visualize(
     doc,
     labels=["PERSON", "DATE", "GPE"],
     show_table=False,

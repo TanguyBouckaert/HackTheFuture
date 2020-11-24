@@ -2,5 +2,5 @@
 import spacy_streamlit
 
 models = ["en_core_web_sm", "en_core_web_md"]
-default_text = "Sundar Pichai is the CEO of Google."
+default_text = "Needs to be imported by api"
 spacy_streamlit.visualize(models, default_text)
